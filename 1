@@ -1,0 +1,76 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/leonagraciella/Alpro/blob/main/1\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"Data Mahasiswa\")\n",
+        "print(\"Nama & NIM : Leona Graciella (K1C025024)\")\n",
+        "print(\"Nama & NIM : Nadhifa Loviska Azzahra (K1C025016)\")\n",
+        "print(\"Kelas : Fisika D\")\n",
+        "\n",
+        "# Wheatstone Bridge dengan input user\n",
+        "\n",
+        "print (\"=== Wheatstone Bridge ===\")\n",
+        "\n",
+        "R1 = float(input(\"Masukkan R1: \"))\n",
+        "R2 = float(input(\"Masukkan R2: \"))\n",
+        "R3 = float(input(\"Masukkan R3: \"))\n",
+        "\n",
+        "# Proses\n",
+        "Rx = (R2*R3)/R1\n",
+        "\n",
+        "# Output\n",
+        "print(\"Nilai Rx = \", round(Rx, 2), \"Ohm\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "w2F_1mn2S6ey",
+        "outputId": "9e4336c4-b6ac-442b-fb64-c76d36488d2e"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Data Mahasiswa\n",
+            "Nama & NIM : Leona Graciella (K1C025024)\n",
+            "Nama & NIM : Nadhifa Loviska Azzahra (K1C025016)\n",
+            "Kelas : Fisika D\n",
+            "=== Wheatstone Bridge ===\n",
+            "Masukkan R1: 630\n",
+            "Masukkan R2: 972\n",
+            "Masukkan R3: 42.6\n",
+            "Nilai Rx =  65.73 Ohm\n"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "name": "Selamat Datang di Colab",
+      "toc_visible": true,
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
